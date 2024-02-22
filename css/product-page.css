@@ -38,3 +38,16 @@ body{
         box-shadow: 0px 0px 20px 3px rgb(164, 164, 164);
         transition: 0.5s;
 }
+
+/* <!-- this card categories design Section --> */
+.children-2{
+    display: inline-block;
+    text-align: center;
+    margin: 30px 38px;
+}
+.children-2:hover{
+    border-radius: 15px;
+    box-shadow: 1px 1px 15px 4px rgb(164, 164, 164);
+    transition: 0.5s;
+    margin-top-left: -90px;
+}
