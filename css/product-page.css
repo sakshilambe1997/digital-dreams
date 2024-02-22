@@ -1,0 +1,21 @@
+body{
+    margin: 0 ; 
+    padding: 0;
+    background-color:#f3eeee;
+}
+.Design-fonts{
+    font-family: "Anta", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+.children{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(248, 247, 247);
+    box-shadow: 3px 10px 15px 4px gray;
+    padding: 30px 200px 30px 200px;
+    margin: 80px  0px 80px 0px;
+}  
