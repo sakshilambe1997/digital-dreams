@@ -1,4 +1,57 @@
-.heading{
-    background-color: aqua;
-    text-align: center;
+/* navbar */
+
+.navbar{
+    background-color: aqua; 
+    padding: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.logo-img-container{
+    /* background-color: aquamarine; */
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo-img{
+    height: 80px;
+
+}
+
+.menu-container{
+    margin-left: 100px;
+    /* background-color: aquamarine; */
+}
+
+.menu{
+    margin: 30px;
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+    
+}
+
+.shopping-cart-img{
+    height: 30px;
+   
+}
+
+.btn{
+    background-color:#6699ff;
+    padding: 8px 15px;
+    border-radius: 20px;
+    border: none;
+    font-weight: bold;
+    margin-left: 240px;
+    cursor: pointer;
+    border: 2px solid #004de6;
+    
+}
+
+.btn:hover{
+    background-color: #1a66ff;
+    color: white;
+    transition: 0.5s;
 }
