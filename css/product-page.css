@@ -40,18 +40,16 @@ body{
 }
 
 /* <!-- this card categories design Section --> */
-
 .children-2{
     display: inline-block;
     text-align: center;
-    margin: 50px 28px;
+    margin: 60px 26px;
     padding: 25px 10px;
 }
 .children-2:hover{
     border-radius: 15px;
     box-shadow: 1px 1px 15px 4px rgb(164, 164, 164);
     transition: 0.5s;
-    margin-top-left: -90px;
 }
 .See-more{
     border-radius: 15px;
@@ -60,4 +58,21 @@ body{
     font-size: 10x;
     border: none;
     width: 100px;
+}
+.See-more:hover{
+    border-radius: 15px;
+    box-shadow: 1px 1px 15px 4px rgb(164, 164, 164);
+    transition: 0.5s;
+}
+
+.children-3{
+    display: inline-block;
+    width: 280px;
+    margin: 60px 5px;
+    padding: 25px 35px;
+}
+.children-3:hover{
+    border-radius: 15px;
+    box-shadow: 1px 1px 15px 4px rgb(164, 164, 164);
+    transition: 0.5s;
 }
