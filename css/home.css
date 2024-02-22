@@ -21,20 +21,31 @@
 }
 
 .menu-container{
-    margin-left: 100px;
+    margin-left: px;
     /* background-color: aquamarine; */
+    width: 510px;
 }
 
 .menu{
-    margin: 30px;
+    margin: 20px;
     font-weight: bold;
     text-decoration: none;
     color: black;
     
 }
 
+.shopping-icon-container{
+    /* background-color: rgb(127, 180, 255); */
+    margin-left: 400px;
+    display: flex;
+
+
+}
+
 .shopping-cart-img{
-    height: 30px;
+    height: 20px;
+    margin: 10px;
+   
    
 }
 
@@ -44,7 +55,7 @@
     border-radius: 20px;
     border: none;
     font-weight: bold;
-    margin-left: 240px;
+    margin-left: 20px;
     cursor: pointer;
     border: 2px solid #004de6;
     
