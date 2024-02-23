@@ -1,9 +1,10 @@
-body{
-    margin: 0 ; 
+body {
+    margin: 0;
     padding: 0;
-    background-color:#f3eeee;
+    background-color: #f3eeee;
 }
-.Design-fonts{
+
+.Design-fonts {
     font-family: "Anta", sans-serif;
     font-weight: 800;
     font-style: normal;
@@ -12,14 +13,9 @@ body{
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    
- }
- .Design-fonts:hover{
-    transform: 0.5s;
-    
- }
 
-.children{
+}
+.children {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -27,31 +23,46 @@ body{
     background-color: rgb(248, 247, 247);
     box-shadow: 3px 10px 15px 4px gray;
     padding: 30px 250px 30px 250px;
-    margin: 80px  0px 80px 0px;
-    
-}  
-.icon{
-    border-radius: 50%;
-    
+    margin: 80px 0px 80px 0px;
+
 }
-.icon:hover{
-        box-shadow: 0px 0px 20px 3px rgb(164, 164, 164);
-        transition: 0.5s;
+
+.icon {
+    border-radius: 50%;
+
+}
+
+.icon:hover {
+    box-shadow: 0px 0px 20px 3px rgb(164, 164, 164);
+    transition: 0.5s;
+
+}
+
+.btn-2{
+    border:  none;
+    text-underline-offset:   250px;
+    background-color: white;
+    color: black;
+    margin-left: 2px;
+    border-radius: 100%;
+
 }
 
 /* <!-- this card categories design Section --> */
-.children-2{
+.children-2 {
     display: inline-block;
     text-align: center;
     margin: 60px 26px;
     padding: 25px 10px;
 }
-.children-2:hover{
+
+.children-2:hover {
     border-radius: 15px;
     box-shadow: 1px 1px 15px 4px rgb(164, 164, 164);
     transition: 0.5s;
 }
-.See-more{
+
+.See-more {
     border-radius: 15px;
     background-color: black;
     color: white;
@@ -59,19 +70,23 @@ body{
     border: none;
     width: 100px;
 }
-.See-more:hover{
+
+.See-more:hover {
     border-radius: 15px;
     box-shadow: 1px 1px 15px 4px rgb(164, 164, 164);
     transition: 0.5s;
 }
 
-.children-3{
+/* laptop page */
+
+.children-3 {
     display: inline-block;
     width: 280px;
-    margin: 60px 5px;
-    padding: 25px 35px;
+    margin: 60px 28px;
+    padding: 25px 20px;
 }
-.children-3:hover{
+
+.children-3:hover {
     border-radius: 15px;
     box-shadow: 1px 1px 15px 4px rgb(164, 164, 164);
     transition: 0.5s;
